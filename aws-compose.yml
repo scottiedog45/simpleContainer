@@ -1,0 +1,10 @@
+version: "3.0"
+services:
+  web:
+    image: scottiedog45/simplecontainer
+    cpu_shares: 100
+    mem_limit: 262144000
+    ports:
+      - "80:80"
+    links:
+      - es
