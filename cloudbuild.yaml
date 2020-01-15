@@ -2,4 +2,4 @@
 steps:
   - name: "gcr.io/simple-container/docker-compose"
     args: ["up"]
-tags: ["latest"]
+tags: ["cloud-builders-community"]
