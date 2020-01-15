@@ -1,4 +1,4 @@
 # file for google cloud builder
 steps:
-  - name: ‘docker/compose:1.19.0’
-    args: [‘up’, ‘-d’]
+  - name: "gcr.io/simple-container/docker-compose"
+    args: ["up"]
